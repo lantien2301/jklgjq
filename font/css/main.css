@@ -1,0 +1,454 @@
+@charset "utf-8";
+/* CSS Document */
+
+.khung
+{
+	width: 1920px;
+	height: auto;
+	
+}
+.khungchu1-1
+{
+	margin: 30px;
+}
+.menu
+{
+	width: 1185px;
+	height: 55px;
+	background:#FFFFFF;
+	margin: 0 auto; 
+}
+
+.menu1
+
+{
+	width: 1024px;
+	height: 55px;
+	background:#FFFFFF;
+	float: right;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #000000 ;
+}
+
+.menu1 ul
+{
+	list-style: none;
+	margin: auto;
+}
+
+.menu1 ul li
+{
+	float: left;
+	padding: 20px 30px 18px 30px;
+}
+
+.menu1 ul li a
+{
+	text-decoration: none;
+}
+
+.menu1 ul li:hover
+{
+	background:#F9B7B8;
+
+}
+
+.logo
+{
+	width: 160px;
+	height: 55px;
+	background:#1B0102;
+	float: left; 
+	
+}
+
+.anh1
+{
+	width: 1920px;
+	height: 680px;
+	background: #47437F
+}
+
+.khung1
+{
+	width: 1185px;
+	height: auto;
+	background: #8F9438;
+	margin: 0px 367px 0px 367px;	
+}
+
+.khungchu
+{
+	width: 1185px;
+	height: 50px;
+	background:#FFFFFF;
+	text-align: center;
+	padding: 50px 0 0 0;
+}
+
+.khungto
+{
+	width: 1185px;
+	height: 460px;
+	background:#FFFFFF;
+}
+
+.khungchu1
+{
+	width: 780px;
+	height: 430px;
+	background: #7B4157;
+	float: left;
+}
+
+.khungchu2
+{
+	width: 380px;
+	height: 430px;
+	background: #6E2B72;
+	float: right;
+}
+
+.khung2
+{
+	width: 1185;
+	height: 500px;
+	background:#FFFFFF;
+	text-align: center;
+}
+
+.khung2a
+{
+	width: 370px;
+	height: 425px;
+	background: #1F0642;
+	float: left;
+}
+
+.khung2b
+{
+	width: 370px;
+	height: 425px;
+	background: #2B1547;
+	float: right
+}
+
+.khung2c
+{
+	width: 370px;
+	height: 425px;
+	background: #451919;
+	margin: 0px 407px 0px 407px;
+	float: none;
+}
+
+.khung3
+{
+	width: 1185px;
+	height:725px;
+	background:#3EE360;
+}
+
+.khung3a1
+{
+	width: 607px;
+	height: 780px;
+	background: #C5AFAF;
+	float: left;
+}
+
+.khung3a
+{
+	width: 580px;
+	height: 725px;
+	background: #6B5C10;
+	float: left;
+	margin-top: 55px;
+}
+
+.khung3b1
+{
+	width: 578px;
+	height: 725px;
+	background:#471D1D;
+	float: right;
+	margin-top: 55px;
+}
+
+.khung3b
+{
+	width: 275px;
+	height: 378px;
+	background:#234D33;
+	float: right;
+		
+}
+
+.khung3c
+{
+	width: 275px;
+	height: 378px;
+	background:#120606;
+	float: left;
+	
+}
+
+.khung3d
+{
+	width: 275px;
+	height: 348px;
+	background:#B5181B;
+	float: left;
+	padding: 0;
+}
+
+.khung3e
+{
+	width: 275px;
+	height: 348px;
+	background:#5B3031;
+	float: right;
+	padding: 0;
+}
+
+.khung4
+{
+	width: 1185px;
+	height: 80px;
+	background: #8E3B8F;
+	margin: 58px 0 0 0;
+	
+}
+
+.khung5
+{
+	width:1185px;
+	height: 145px;
+	background: #055963;
+}
+
+.khung5a
+{
+	width:375px;
+	height: 145px;
+	background:#2A0C6B;
+	float: left;
+}
+
+.khung5b
+{
+	width:375px;
+	height: 145px;
+	background:#2A0C6B;
+	margin: 0 405px 0 405px;
+}
+
+.khung5c
+{
+	width:375px;
+	height: 145px;
+	background:#2A0C6B;
+	float: right
+}
+
+.khung6
+{
+	width: 1185px;
+	height: 60px;
+	background: #085706;
+}
+
+.khung7
+{
+	width: 1920px;
+	height: 520px;
+	background: #625304;
+}
+
+.khung8
+{
+	width: 1185px;
+	height: 1795px;
+	background: #372F00;
+	margin: 0px 367px 0px 367px;
+}
+
+.khung9
+{
+	width: 1185px;
+	height: 60px;
+	background: #FFFFFF;
+	text-align: center;
+	padding: 60px 0 0 0
+}
+
+.khung10
+{
+	width: 1185px;
+	height: 410px;
+	background: #092849;
+}
+
+.khung10a
+{
+	width: 375px;
+	height: 410px;
+	background: #04370A;
+	float: left;
+}
+
+.khung10b
+{
+	width: 375px;
+	height: 410px;
+	background: #04370A;
+	float: right;
+}
+
+.khung10c
+{
+	width: 375px;
+	height: 410px;
+	background: #04370A;
+	margin: 0 405px 0 405px;
+}
+
+.khung11
+{
+	width: 1185px;
+	height: 80px;
+	background: #FFFFFF;
+	text-align: center;
+	padding: 80px 0 0 0;
+}
+
+.khung12
+{
+	width: 1185px;
+	height: 410px;
+	background: #E9BFC0;
+}
+
+.khung13
+{
+	width: 1185px;
+	height: 80px;
+	background: #FFFFFF;
+	text-align: center;
+	padding: 80px 0 0 0;
+}
+
+.khung14
+{
+	width: 1185px;
+	height: 465px;
+	background: #D7E1D5;
+}
+
+.khung14a
+{
+	width: 375px;
+	height:465px;
+	background: #B50306;
+	float: left;
+}
+
+.khung14b
+{
+	width: 375px;
+	height:465px;
+	background: #520147;
+	float: right;
+}
+
+.khung14c
+{
+	width: 375px;
+	height:465px;
+	background:#5C968F;
+	margin: 0 405px 0 405px;
+}
+
+.khung15
+{
+	width: 1185px;
+	height: 58px;
+	background: #06A072;
+}
+
+.khung16
+{
+	width: 1920px;
+	height: 460px;
+	background:  #0E0E0E;
+}
+
+.khung16a
+{
+	width:1185px;
+	height: 460px;
+	background: #0E0E0E;
+	margin: 0px 367px 0px 367px;
+	
+}
+
+.khung16a1
+{
+	width: 375px;
+	height: 460px;
+	
+	float: left;
+	font-family: 'Roboto Condensed', sans-serif;
+ 	color:#D4D4D4;
+	line-height: 1.5;
+	margin: 66px 0 0 0;
+}
+
+.khung16a2
+{
+	width: 375px;
+	height: 460px;
+	background: #04370A;
+	float: right;
+}
+
+.khung16a3
+{
+	width: 375px;
+	height: 460px;
+	background: #04370A;
+	margin: 66px 405px 0 405px;
+	
+}
+
+.khung16a3a
+{
+	width: 375px;
+	height: 60px;
+	background: #838383;
+	margin: 66px 0 0 0;
+}
+
+.khung16a3b
+{
+	width: 375px;
+	height: 60px;
+	background: #838383;
+	margin: 20px 0 0 0;
+}
+
+
+.khung17
+{
+	width: 1920px;
+	height: 75px;
+	background: #000000;
+	
+}
+
+@font-face
+{
+ font-family: 'Roboto Condensed', sans-serif;
+  src:url("/font/RobotoCondensed-Bold.ttf");
+}
+

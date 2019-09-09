@@ -1,0 +1,346 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link href="css/main.css" rel="stylesheet">
+	
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+	
+	 <script>document.getElementsByTagName("html")[0].className += " js";</script>
+ 	<link rel="stylesheet" href="css/style.css">
+	
+</head>
+
+<body>
+	<div class="khung">
+	  <div class="menu">
+		<div class="logo">
+					<img src="images/Cajhp;.PNG" width="160px" height="55px">
+					
+				</div>
+		<div class="menu1"> 
+					<ul>
+						<li><a href="#" style="color: black"> HOME</a></li>
+						<li><a href="#" style="color: black"> ABOUT US</a></li>
+						<li><a href="#" style="color: black"> PROJECTS</a></li>
+						<li><a href="#" style="color: black"> TESTIMONIALS</a></li>
+						<li><a href="#" style="color: black"> TEAM</a></li>
+						<li><a href="#" style="color: black"> NEWS</a></li>
+						<li><a href="#" style="color: black"> CONTACT</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="anh1">
+			
+				<div class="slideshow-container">
+
+				<div class="mySlides fade">
+				  <div class="numbertext">1 / 3</div>
+				  <img src="images/Bai-02_02.gif" style="width:100%">
+				  
+				</div>
+
+				<div class="mySlides fade">
+				  <div class="numbertext">2 / 3</div>
+				  <img src="images/photo-1567206848494-680aa0e4477e.png" style="width:100%">
+				 
+				</div>
+
+				<div class="mySlides fade">
+				  <div class="numbertext">3 / 3</div>
+				  <img src="images/photo-1565984556409-b0d4946ce2d4.png" style="width:100%">
+				  
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+				</div>
+				<br>
+
+				<script>
+				var slideIndex = 1;
+				showSlides(slideIndex);
+
+				function plusSlides(n) {
+				  showSlides(slideIndex += n);
+				}
+
+				function currentSlide(n) {
+				  showSlides(slideIndex = n);
+				}
+
+				function showSlides(n) {
+				  var i;
+				  var slides = document.getElementsByClassName("mySlides");
+				  var dots = document.getElementsByClassName("dot");
+				  if (n > slides.length) {slideIndex = 1}    
+				  if (n < 1) {slideIndex = slides.length}
+				  for (i = 0; i < slides.length; i++) {
+					  slides[i].style.display = "none";  
+				  }
+				  for (i = 0; i < dots.length; i++) {
+					  dots[i].className = dots[i].className.replace(" active", "");
+				  }
+				  slides[slideIndex-1].style.display = "block";  
+				  dots[slideIndex-1].className += " active";
+				}
+				</script>
+				
+				<a href="#" class="cd-top text-replace js-cd-top">Top</a>
+			 <script src="js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+ 			 <script src="js/main.js"></script>
+				
+			</div>
+						
+			<div class="khung1">
+				
+				<div class="khungchu">
+			    <hr style="width: 450px; float:left; border: 1px #000000 solid; ">
+					WHAT WE OFFER
+				 <hr style="width: 450px; float:right; border: 1px #000000 solid; ">
+				</div>
+				
+				<div class="khungto">
+					<div class="khungchu1">
+						<img src="images/Bai-02_05.gif" width="780px" height="340px">
+						<div class="khungchu1-1">
+						<br><p>NATURAL STONE</p>
+						</div>
+						
+						
+					</div>
+					
+					<div class="khungchu2">
+						<img src="images/Bai-02_07.gif" width="380px" height="340px">
+						<div class="khungchu2-2"> 
+							<br><p>HARDWOOD </p>
+						
+						</div>
+					</div>
+				</div>
+				
+				<div class="khung2">
+					<div class="khung2a">
+						<img src="images/Bai-02_11.gif" width="370px" height="340px">
+							<div class="khung2a1">
+								<br> <p>TILE</p>
+							</div>
+							
+					</div>
+					<div class="khung2b">
+						<img src="images/Bai-02_14.gif" width="370px" height="340px">
+						<div class="khung2a2">
+							<br>
+							<p>
+							LAMINATE
+							</p>
+						</div>
+					</div>
+					<div class="khung2c">
+						<img src="images/Bai-02_13.gif" width="370px" height="340px">
+						<div class="khung2a3">
+							<br>
+							<p>
+							CARPET
+							</p>
+						</div>
+					</div>
+					
+					<p>
+					 <hr style="width: 450px; float:left; border: 1px #000000 solid; ">
+				 	TRENDING PRODUCT
+					  <hr style="width: 450px; float:right; border: 1px #000000 solid; ">
+					</p>
+					
+				</div>
+				
+				<div class="khung3">
+					<div class="khung3a1">
+						<div class="khung3a">
+							<img src="images/Bai-02_18.gif" width="580px" height="725px">
+						</div>
+					</div>
+					
+					<div class="khung3b1">
+					  <div class="khung3b">
+							<img src="images/Bai-02_22.gif" width="275px" height="282px">
+						  <p>POLISHID MACBLE <br>
+							 $150,00</p>
+						</div>
+						
+						<div class="khung3c">
+							<img src="images/Bai-02_20.gif" width="275px" height="282px">
+							<p>CARRARA MACBLE <br>
+							$400,00 $500,00</p>
+						</div>
+						
+						<div class="khung3d">
+							<img src="images/Bai-02_25.gif" width="275px" height="282px">
+							<p>BASTILLE GRAY <br>
+							$500,00</p>
+						</div>
+						
+						<div class="khung3e">
+							<img src="images/Bai-02_26.gif" width="275px" height="282px">
+							<p>BAYCLIFF CAULFEILD <br>
+							 $350,00</p>
+						</div>
+					</div>
+					
+				</div>
+				
+				<div class="khung4"></div>
+				<div class="khung5">
+					<div class="khung5a">
+						<div class="khung5a1">
+							<p> <br> <br> FREE WORLDWIDE DILIVERY<br>
+							When ordering from $300 </p>
+						</div>
+					</div>
+					<div class="khung5c">
+						<div class="khung5b1">
+							<p> <br> <br>-20% ON NEW COLECTIONS<br>
+							Get your discount today!</p>
+						</div>
+					</div>
+					<div class="khung5b">
+						<div class="khung5c1">
+							<br> <br> HIGH-QUALITY PRODUCT
+							<br> Award winning flooring
+						</div>
+					</div>
+				</div>
+				<div class="khung6"></div>
+			</div>
+			<div class="khung7">
+			
+			<img src="images/Capture.PNG 2.PNG" width="1920px" height="520px">
+				
+				
+			</div>
+			<div class="khung8">
+				<div class="khung9">
+				 <hr style="width: 450px; float:left; border: 1px #000000 solid; ">
+					WHAT PEOPLE SAY
+					 <hr style="width: 450px; float:right; border: 1px #000000 solid; ">
+				</div>
+				<div class="khung10">
+					<img src="images/Capture.PNG 3.PNG" width="1185px" height="410px">
+				</div>
+				<div class="khung11">
+					<hr style="width: 450px; float:left; border: 1px #000000 solid; ">
+					TEAM PROFESSIONAL
+					 <hr style="width: 450px; float:right; border: 1px #000000 solid; ">
+				</div>
+				<div class="khung12">
+					<div class="khung10a">
+						<img src="images/lagfoq.PNG" width="375px" height="410px">
+					</div>
+					<div class="khung10b"> 
+						<img src="images/Capture io.PNG" width="375px" height="410px">
+					</div>
+					<div class="khung10c">
+						<img src="images/hjfj,l.PNG" width="375px" height="410px">
+					</div>
+				</div>
+				<div class="khung13">
+					 <hr style="width: 450px; float:left; border: 1px #000000 solid; ">
+				LASTEST POST
+					 <hr style="width: 450px; float:right; border: 1px #000000 solid; ">
+				</div>
+				<div class="khung14">
+					<div class="khung14a">
+						<div class="khung14a1">
+							<img src="images/4.PNG" width="375px" height="85px">
+						</div>
+						<div class="khung14a2"> 
+							<img src="images/1.PNG" width="375px" height="272px">
+						</div>
+						<div class="khung14a3">
+							<br>FLOORING PRO'S SECRETSTHAT CAN RAISE YOUR HOME VALUE
+						</div>
+						
+					</div>
+					<div class="khung14b">
+						<div class="khung14b1">
+							<img src="images/5.PNG" width="375px" height="85px">
+						</div>
+						<div class="khung14b2">
+							<img src="images/3.PNG" width="375px" height="272px">
+						</div>
+						<div class="khung14b3">
+						<br>	HOW TO PICK FLOORS/ CARPET AND GET THE BET DEAL
+						</div>
+						
+					</div>
+					<div class="khung14c">
+						<div class="khung14c1">
+							<img src="images/6.PNG" width="375px" height="85px">
+						</div>
+						<div class="khung14c2">
+							<img src="images/2.PNG" width="375px" height="272px">
+						</div>
+						<div class="khung14c3">
+							<br> BEST LAMINATE AND HARDWOOD FLOORING TRENDS FOR 2019
+						</div>
+						
+					</div>
+				</div>
+				<div class="khung15"></div>
+			</div>
+			<div class="khung16">
+				<div class="khung16a">
+					<div class="khung16a1">
+						
+					<img src="images/Capture.PNG" width="220px" height="80px"> <br>
+						<p> We are an industry-leading flooring <br>
+							productsand services provider. Let's <br>
+							make your floor look spectacular! </p>
+						 <hr style=" width: 300px; float:left; border: 1px #ffffff solid; "> <br>
+						+1 323-913-4688 <br>
+					Mon-Sat:07:00 AM -05:00PM <br>
+					4730 Crystal Springs Dr, Los Angeles, CA 90027
+					</div>
+					<div class="khung16a2">
+					<p>GALLERY </p>
+						<div class="khungpic">
+							<div class="khungpic1">
+								<div class="khungpic1a">
+									<img src="images/Bai-02_07.gif" width="122px" height="122px">
+								</div>
+								<div class="khungpic1b">
+									<img src="images/Bai-02_13.gif"  width="122px" height="122px">
+								</div>
+							</div>
+							<div class="khungpic2">
+								<div class="khungpic2a">
+									<img src="images/Bai-02_14.gif"  width="122px" height="122px">
+								</div>
+								<div class="khungpic2b">
+									<img src="images/Bai-02_18.gif"  width="122px" height="122px">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="khung16a3">
+					NEWSLETTER
+						<p>Join our email list for tips and useful information.</p>
+						
+						<div class="khung16a3a"> <br>Enter your email</div>
+						<div class="khung16a3b"> <br> SUBSCRIBE</div>
+							<p>Follow us
+								
+								 <img src="images/Capture1.PNG" width="165px" height="45px" float="left">
+							
+							</p>
+							
+					</div>
+				</div>
+			</div>
+			<div class="khung17"></div>
+	</div>
+</body>
+</html>
